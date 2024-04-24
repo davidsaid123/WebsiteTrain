@@ -1,0 +1,35 @@
+.question-container {
+  margin-bottom: 20px;
+}
+
+.option-button {
+  background-color: #dcdcdc; /* Greyed out background for selected */
+  color: #333;
+  border-color: #888;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.option-button.selected {
+  background-color: #007bff; /* Greyed out background for selected */
+  color: #333;
+  border-color: #888;
+}
+
+.text-input {
+  padding: 8px;
+  margin: 5px;
+  width: 50%;
+  border: 1px solid #ccc;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
